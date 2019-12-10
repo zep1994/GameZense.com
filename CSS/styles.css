@@ -7,9 +7,12 @@ header {
     height: 80px;
     color: white;
     background: orange;
-    
+
 }
 
+nav {
+    float: right;
+}
 body {
     background-color: blue;
 }
