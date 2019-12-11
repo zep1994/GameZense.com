@@ -8,5 +8,12 @@ class ArticlesController < ApplicationController
     end 
 
     def create 
+        @article = Article.new
+        @article.save 
+    end
+
+    private 
+    def article_params
+        params.require(:article).permit(:title, :description)
     end
 end 
