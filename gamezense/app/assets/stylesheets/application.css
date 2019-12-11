@@ -20,12 +20,11 @@
 
 .nav {
     height: 50px; 
-    background-color: paleturquoise;
+    background-color: rgb(219, 135, 8);
 }
 
 .title { 
     float: left;
-    top: 10px;
     left: 50px;
     position: relative;
 }
