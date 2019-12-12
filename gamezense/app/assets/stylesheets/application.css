@@ -32,11 +32,17 @@
 .left {
     width: 50%;
     float: left;
+    clear: left;
+    height: 700px;
+    background-color: brown;
 }
 
 .right {
     width: 50%;
     float: right;
+    height: 700px;
+    background-color: red;
+    clear: right;
 }
 
 ul {
@@ -62,4 +68,9 @@ ul {
   li a:hover {
     background-color: #111;
     color: white;
+  }
+
+  .bottom {
+    height: 100%;
+    top 
   }
